@@ -7,4 +7,34 @@ I create a Spring boot/Maven project for logging any requests and responses by c
 - JavaSE 1.8
 - Maven 3.3.9
 
+# Dependencies
+Open the pom.xml file for spring-aop configuration:
 
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-aop</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.aspectj</groupId>
+            <artifactId>aspectjweaver</artifactId>
+        </dependency>
+
+# Features
+
+- Automatically logs input and output
+- Automatically logs errors occurring in API
+- No side-effect in actual API implementation due to AOP logic
+- Automatically sync to new APIs
+- Works with unit testing
+- Config logback setting like file paht, file rolling and archive path, file size, ...
+
+
+# Usage
+
+Make a new request by postman: [POST] http://localhost:8080/api/user like below:
+  {
+    "firstName":"Pyruz",
+    "lastName":"Janbaaz",
+    "phoneNumber": 5860054991,
+    "isActive": true
+  }
