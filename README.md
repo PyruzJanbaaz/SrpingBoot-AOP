@@ -38,8 +38,9 @@ Make a new request by postman: [POST] http://localhost:8080/api/user:
         "phoneNumber": 5860054991,
         "isActive": true
     
-Then go to your configured loggin path and open the log file, You should see lines similar to the following in the log file:
+Then go to your configured loggin path and open the log file, You should find lines similar to the following in the log file:
 
-16-08-2020 10:18:52.460 [http-nio-8080-exec-1] INFO  c.p.SpringBootAOPExampleApplication.beforeAnyRestController - {user=User(firstName=Pyruz, lastName=Janbaaz, phoneNumber=5860054991, isActive=true)}
-16-08-2020 10:18:52.465 [http-nio-8080-exec-1] INFO  c.p.SpringBootAOPExampleApplication.afterAnyRestController - ResultDTO(code=0, message=User created successfully!)
+{user=User(firstName=Pyruz, lastName=Janbaaz, phoneNumber=5860054991, isActive=true)}
+
+ResultDTO(code=0, message=User created successfully!)
   
