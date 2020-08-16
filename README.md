@@ -31,10 +31,18 @@ Open the pom.xml file for spring-aop configuration:
 
 # Usage
 
-Make a new request by postman: [POST] http://localhost:8080/api/user like below:
+Make a new request by postman: [POST] http://localhost:8080/api/user:
+
   {
+  
     "firstName":"Pyruz",
+    
     "lastName":"Janbaaz",
+    
     "phoneNumber": 5860054991,
+    
     "isActive": true
+    
   }
+  
+  
