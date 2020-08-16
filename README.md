@@ -40,7 +40,6 @@ Make a new request by postman: [POST] http://localhost:8080/api/user:
     
 Then go to your configured loggin path and open the log file, You should find lines similar to the following in the log file:
 
-{user=User(firstName=Pyruz, lastName=Janbaaz, phoneNumber=5860054991, isActive=true)}
-
-ResultDTO(code=0, message=User created successfully!)
+- {user=User(firstName=Pyruz, lastName=Janbaaz, phoneNumber=5860054991, isActive=true)}
+- ResultDTO(code=0, message=User created successfully!)
   
