@@ -1,4 +1,4 @@
-# SrpingBoot Rest API - AOP
+# SpringBoot Rest API - AOP
 A sample project by spring boot and AOP for logging any request/responses by calling Rest APIs
 
 I create a Spring Boot project for logging any requests and responses by calling Rest APIs. You need the following tools and technologies to develop the same.
